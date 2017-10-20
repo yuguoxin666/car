@@ -1,0 +1,141 @@
+.body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: 40px; }
+  header ul li {
+    line-height: 40px; }
+  header ul .cen {
+    display: flex; }
+    header ul .cen span {
+      flex: 1; }
+  header ul .on {
+    border-bottom: 2px solid #999; }
+
+section {
+  flex: 1;
+  margin-top: 2px;
+  overflow-y: scroll;
+  background: #ededed; }
+  section .swiper-container {
+    height: 180px; }
+    section .swiper-container .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 100%; }
+      section .swiper-container .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 100%; }
+  section .option {
+    height: 90px;
+    padding: 0 10px;
+    display: flex;
+    background: #fff; }
+    section .option dl {
+      flex: 1;
+      text-align: center; }
+      section .option dl dt {
+        margin-top: 10px; }
+        section .option dl dt span {
+          display: inline-block;
+          height: 40px;
+          width: 40px;
+          border-radius: 15px;
+          line-height: 40px; }
+          section .option dl dt span i {
+            color: #fff;
+            font-size: 20px; }
+      section .option dl dd {
+        margin-top: 10px; }
+  section .bann {
+    background: #fff; }
+    section .bann > p {
+      margin: 15px; }
+    section .bann img {
+      width: 100%; }
+  section .content-t {
+    background: #fff; }
+    section .content-t > p {
+      margin: 15px; }
+    section .content-t ul li {
+      height: 80px; }
+      section .content-t ul li i {
+        margin-top: 15px;
+        font-size: 30px; }
+      section .content-t ul li > p {
+        margin-top: 5px; }
+    section .content-t .col-xs-3 {
+      border-top: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      padding: 0; }
+      section .content-t .col-xs-3:nth-child(4n) {
+        border-right: none; }
+  section .isc {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 10px; }
+    section .isc > p {
+      margin: 15px; }
+      section .isc > p time {
+        float: right; }
+        section .isc > p time span {
+          background: #666;
+          color: #fff;
+          padding: 0 3px; }
+    section .isc ul {
+      width: 100%; }
+      section .isc ul li {
+        width: 30%;
+        float: left;
+        margin-left: 10px; }
+        section .isc ul li p {
+          margin-top: 10px; }
+        section .isc ul li img {
+          width: 100%; }
+  section .area {
+    background: #fff;
+    padding-bottom: 10px; }
+    section .area > p {
+      margin: 15px; }
+    section .area > ul {
+      border-top: 2px solid #ccc;
+      text-align: center; }
+      section .area > ul li {
+        border-right: 1px solid #ccc; }
+        section .area > ul li img {
+          width: 80px;
+          height: 80px; }
+  section .like {
+    background: #fff;
+    padding-bottom: 10px; }
+    section .like > p {
+      margin: 15px; }
+    section .like ul {
+      border-top: 1px solid #ccc; }
+      section .like ul li {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px; }
+        section .like ul li p {
+          margin-top: 10px; }
+          section .like ul li p:nth-child(3) {
+            font-size: 10px;
+            color: #999; }
+        section .like ul li:nth-child(2n+1) {
+          border-right: 1px solid #ccc; }
+        section .like ul li img {
+          margin-top: 20px;
+          width: 100%; }
+
+footer {
+  display: flex;
+  height: 45px;
+  padding-top: 5px; }
+  footer dl {
+    flex: 1;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,144 @@
+.body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: flex
+  flex-direction: column
+header
+  height: 40px
+  ul
+    li
+      line-height: 40px
+    .cen
+      display: flex
+      span
+        flex: 1
+    .on
+      border-bottom: 2px solid #999
+
+section
+  flex: 1
+  margin-top: 2px
+  overflow-y: scroll
+  background: #ededed
+  .swiper-container
+    height: 180px
+    .swiper-wrapper
+      .swiper-slide
+        width: 100%
+        height: 100%
+        img
+          width: 100%
+          height: 100%
+  .option
+    height: 90px
+    padding: 0 10px
+    display: flex
+    background: #fff
+    dl
+      flex: 1
+      text-align: center
+      dt
+        margin-top: 10px
+        span
+          display: inline-block
+          height: 40px
+          width: 40px
+          border-radius: 15px
+          line-height: 40px
+
+          i
+            color: #fff
+            font-size: 20px
+      dd
+        margin-top: 10px
+
+  .bann
+    background: #fff
+    &>p
+      margin: 15px
+    img
+      width: 100%
+
+  .content-t
+    background: #fff
+    &>p
+      margin: 15px
+    ul
+      li
+        height: 80px
+        i
+          margin-top: 15px
+          font-size: 30px
+        &>p
+          margin-top: 5px
+    .col-xs-3
+      border-top: 1px solid #ccc
+      border-right: 1px solid #ccc
+      &:nth-child(4n)
+        border-right: none
+      padding: 0
+
+  .isc
+    width: 100%
+    background: #fff
+    padding-bottom: 10px
+    &>p
+      margin: 15px
+      time
+        float: right
+        span
+          background: #666
+          color: #fff
+          padding: 0 3px
+    ul
+      width: 100%
+      li
+        width: 30%
+        float: left
+        margin-left: 10px
+        p
+          margin-top: 10px
+        img
+          width: 100%
+  .area
+    background: #fff
+    padding-bottom: 10px
+    &>p
+      margin: 15px
+    &>ul
+      border-top: 2px solid #ccc
+      text-align: center
+      li
+        border-right: 1px solid #ccc
+        img
+          width: 80px
+          height: 80px
+  .like
+    background: #fff
+    padding-bottom: 10px
+    &>p
+      margin: 15px
+    ul
+      border-top: 1px solid #ccc
+      li
+        border-bottom: 1px solid #ccc
+        padding-bottom: 10px
+        p
+          margin-top: 10px
+          &:nth-child(3)
+            font-size: 10px
+            color: #999
+        &:nth-child(2n+1)
+          border-right: 1px solid #ccc
+        img
+          margin-top: 20px
+          width: 100%
+footer
+  display: flex
+  height: 45px
+  padding-top: 5px
+  dl
+    flex: 1
+    text-align: center
